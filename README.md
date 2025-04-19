@@ -12,4 +12,6 @@
 - Fix polygon methods
 - Make all tests pass
 ## new crates
+Note this is not a promise.
 - `polygon-rand` to generate random valid polygons for fuzzing in the rest of the crates
+- `gcode-rs` a standard enum with serializer traits, for slicers to use and other crates to implement for different formats and firmwares
