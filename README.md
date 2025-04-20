@@ -9,7 +9,7 @@
 
 ## [rita](https://github.com/glennDittmann/rita)
 - Non-planar 3d triangulation
-- Remove need for cxx
+- Remove need for cxx, by using/making an all rust alternitive to `geogram_predicates`
 - Add fuzzing (under review)
 - Add benchemarks, check if using nalgbra is faster
 - Make logging and timing optional
