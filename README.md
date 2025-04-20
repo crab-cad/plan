@@ -1,6 +1,11 @@
 ## Integration
 - Use rita for geo-3d and csgrs triangulation
 - Use geo-3d for csgrs polygon
+- Use zerocopy or bytemuk for free conversion
+- Transfer repos:
+  - [ ] rita
+  - [ ] geo-3d
+  - [ ] csgrs
 
 ## [rita](https://github.com/glennDittmann/rita)
 - Non-planar 3d triangulation
