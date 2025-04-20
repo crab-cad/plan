@@ -26,5 +26,5 @@
 ## new crates
 Note this is not a promise.
 - `polygon-rand` to generate random valid polygons for fuzzing in the rest of the crates
-- I unified 3d visulizers to see geo-3d algorithms, rita triangualtion, and csgrs shapes and usage
+- I unified 3d visulizer to see geo-3d algorithms, rita triangualtion, and csgrs shapes and usage; with bevy and egui
 - `gcode-rs` a standard enum with serializer traits, for slicers to use and other crates to implement for different formats and firmwares
