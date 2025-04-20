@@ -18,6 +18,7 @@
 - Make all tests pass
 - Make offset(dilte/erode) 3d
 - Add benchmarks
+- Make BSP intersection fully 3d
 
 ## [geo-3d](https://github.com/TimTheBig/geo-3d)
 - Fix polygon methods
