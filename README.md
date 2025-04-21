@@ -8,6 +8,7 @@
   - [ ] csgrs
 
 ## [rita](https://github.com/glennDittmann/rita)
+- Finish the ES 3d flip algorithm
 - Non-planar 3d triangulation
 - Remove need for cxx, by using/making an all rust alternitive to `geogram_predicates`
 - Add fuzzing (under review)
@@ -16,13 +17,14 @@
 
 ## [csgrs](https://github.com/timschmidt/csgrs)
 - Make all tests pass
-- Make offset(dilte/erode) 3d
+- Make offset(dilate/erode) 3d
 - Add benchmarks
 - Make BSP intersection fully 3d
 
 ## [geo-3d](https://github.com/TimTheBig/geo-3d)
 - Fix polygon methods
 - Make all tests pass
+- Make relate 3d
 
 ## new crates
 Note this is not a promise.
