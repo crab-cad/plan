@@ -1,3 +1,25 @@
+## Goals for all crates
+
+- Support no-std and document any limitations
+  - if a crate cannot support no-std document why
+- The following cargo commands will be used
+  - `cargo doc --open`
+  - `cargo test`
+  - `cargo test --release`
+  - Others TBD
+    - `cargo publish`
+    - `cargo clippy`
+    - `cargo fmt`
+    - `cargo bench`
+- The following platforms will be supported
+  - Linux
+  - MacOS
+  - Windows
+  - Others TDB
+    - `wasm`
+    - `raspberry pi`
+    - `arduino`
+
 ## Integration
 - Use rita for geo-3d and csgrs triangulation
 - Use geo-3d for csgrs polygon
