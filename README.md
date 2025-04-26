@@ -2,23 +2,32 @@
 
 - Support no-std and document any limitations
   - if a crate cannot support no-std document why
-- The following cargo commands will be used
-  - `cargo doc --open`
-  - `cargo test`
-  - `cargo test --release`
-  - Others TBD
-    - `cargo publish`
-    - `cargo clippy`
-    - `cargo fmt`
-    - `cargo bench`
+
 - The following platforms will be supported
   - Linux
   - MacOS
   - Windows
-  - Others TDB
+  - TBD
     - `wasm`
     - `raspberry pi`
     - `arduino`
+
+## Policies for all crates
+
+- Minimum Supported Rust Version (MSRV)
+  - 1.85.1 Edition 2024
+  - TBD
+    - The MSRV will be updated to the latest stable version every 6 months
+
+- Code style
+  - `cargo doc --open`
+  - `cargo test`
+  - `cargo test --release`
+  - TBD
+    - `cargo publish`
+    - `cargo clippy`
+    - `cargo fmt`
+    - `cargo bench`
 
 ## Integration
 - Use rita for geo-3d and csgrs triangulation
