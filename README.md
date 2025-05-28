@@ -1,6 +1,6 @@
 ## Integration
 - Use rita for geo-3d and csgrs triangulation
-- Use geo-3d for csgrs polygon
+- Make very fast convertion to and from geo-3d and csgrs polygon (under way)
 - Use zerocopy or bytemuk for free conversion
 - Transfer repos:
   - [ ] rita
@@ -10,7 +10,7 @@
 ## [rita](https://github.com/glennDittmann/rita)
 - [ ] Finish the ES 3d flip algorithm
 - [ ] Non-planar 3d triangulation
-- [ ] Remove need for cxx, by using/making an all rust alternitive to `geogram_predicates`
+- [ ] Remove need for cxx, by using/making an all rust alternitive to `geogram_predicates` (under testing)
 - [x] Add fuzzing
 - [ ] Add benchemarks, check if using nalgbra is faster
 - [x] Make logging and timing optional
@@ -32,6 +32,6 @@
 
 ## new crates
 Note this is not a promise.
-- `polygon-rand` to generate random valid polygons for fuzzing in the rest of the crates
+- `polygon-rand` to generate random valid polygons for fuzzing in the rest of the crates, or use rgeometry's crate for this
 - A unified 3d visulizer to see geo-3d algorithms, rita triangualtion, and csgrs shapes and usage; with bevy and egui
-- `gcode-rs` a standard enum with serializer traits, for slicers to use and other crates to implement for different formats and firmwares
+- `gcode-rs` a standard enum with **de/se**rializer traits, for slicers to use and other crates to implement for different formats and firmwares
